@@ -21,7 +21,10 @@ public class LocalDB {
 		byte[] helloBytes = password.getBytes(StandardCharsets.UTF_8);
 		String newVal = DatatypeConverter.printBase64Binary(helloBytes);
 		System.out.println(password + " encoded=> " + newVal);
+		System.out.println("");
 		return newVal;
+		//hello
+		
 
 	}
 
